@@ -1,0 +1,259 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+
+<script src="jquery-1.8.0.min.js"></script>
+
+<script>
+
+$(document).ready(function()
+						   
+				{
+					var i=1;
+				$("#div1").hover(function()
+							{
+							$("#ff1").text("on hover");	
+							$("#div1up" ) .animate( {    height:"50%"   },500 );
+							$("#div1mid") .animate( {	 height:"0px"   },500 );
+							$("#im" ) .hide(1000);
+							$("#kk" ) .show(1500 );
+							$("#div1down").animate( {	 height:"50%"   },500 );
+							},
+				$("#div1").hover(function()
+							{
+							$("#div1up" ) .animate( {    height:"217px"   },500 );	
+							$("#div1mid") .animate( {	 height:"217px"   },500 );
+							$("#div1down").animate( {	 height:"217px"   },500 );
+							$("#ff1").text("out hover");	
+							}
+							));
+				
+				$("#div2").hover(function()
+							{
+							$("#ff2").text("on hover");	
+							$("#div2up" ) .animate( {    height:"50%"  },300 );
+							$("#div2mid") .animate( {	 height:"0px"  },300 );
+							$("#div2down").animate( {	 height:"50%"  },300 );
+							},
+				$("#div2").hover(function()
+							{
+							$("#div2up" ) .animate( {    height:"178px"  },300 );	
+						    $("#div2mid") .animate( {	 height:"295px"  },300 );
+							$("#div2down").animate( {	 height:"178px"  },300 );
+							$("#ff2").text("out hover");	
+							}));
+				
+				$("#div3").hover(function()
+							{
+							$("#ff3").text("on hover");	
+							$("#div3up" ) .animate( {    height:"50%"  },300 );
+							$("#div3mid") .animate( {	 height:"0px"  },300 );
+							$("#div3down").animate( {	 height:"50%"  },300 );
+							},
+				$("#div3").hover(function()
+							{
+							$("#div3up" ) .animate( {    height:"141px"  },300 );	
+							$("#div3mid") .animate( {	 height:"369px"  },300 );
+							$("#div3down").animate( {	 height:"141px"  },300 );
+							$("#ff3").text("out hover");	
+							}));
+				
+				$("#div4").hover(function()
+							{
+							$("#ff4").text("on hover");	
+							$("#div4up"  ) .animate( {	 height:"50%"  },300 );
+							$("#div4mid" ) .animate( {   height:"0px"  },300 );
+							$("#div4down") .animate( {	 height:"50%"  },300 );
+							},
+				$("#div4").hover(function()
+							{
+							$("#div4up" )  .animate( {	 height:"104px"  },300 );
+							$("#div4mid" ) .animate( {   height:"443px"  },300 );
+							$("#div4down") .animate( {	 height:"104px"  },300 );
+							$("#ff4").text("out hover");	
+							}));
+				
+				$("#div5").hover(function()
+							{
+							$("#ff5").text("on hover");	
+							$("#div5up"  ) .animate( {	 height:"50%"  },600 );
+							$("#div5mid" ) .animate( {   height:"0px"  },600 );
+							$("#div5down") .animate( {	 height:"50%"  },600 );
+							$("#kk" ) .hide(1500);
+							$("#im" ) .show(1000);
+							
+							},
+				$("#div5").hover(function()
+							{
+							$("#div5up" )  .animate( {	 height:"67px"  },600 );
+							$("#div5mid" ) .animate( {   height:"517px"  },600 );
+							$("#div5down") .animate( {	 height:"67px"  },600 );
+							$("#ff5").text("out hover");	
+							}));
+				
+				
+				});
+				
+	
+
+</script>
+
+
+<style type="text/css">
+
+#maindiv
+	{	
+	
+	width:100%;
+	height:651px;
+	background-color:#000000;
+	}
+
+#div1
+	{
+	 width : 20%;	
+	 height: 651px;
+	 float:left	;
+	 background-color: #191919;
+	}
+
+#div2
+	{
+	 width : 20%;	
+	 height:inherit;
+	 float:left;
+	 background-color:#191919;
+	}
+
+#div3
+	{
+	 width : 20%;	
+	 height:inherit;
+	 float:left	;
+	 background-color: #191919;
+	}
+	
+#div4
+	{
+	 width : 20%;	
+	 height:inherit;
+	 float:left	;
+	 background-color:#191919;
+	}
+
+#div5
+	{
+	 width : 20%;	
+	 height:inherit;
+	 float:left	;
+	 background-color: #191919;
+	}
+
+#div1up
+	{width : 95%;	 height:217px;   background-color:#FFFFFF;border-radius:30px;}
+#div1mid
+	{width : 95%;	 height:217px;   background-color: #FFF056; border-radius:30px; }
+#div1down
+	{width : 95%;	 height:217px;   background-color:#DFE2DB;border-radius:30px;}
+
+#div2up
+	{width : 95%;	 height:178px;   background-color:#FFFFFF;border-radius:30px;}
+#div2mid
+	{width : 95%;	 height:295px;   background-color: #FFF056; border-radius:30px; }
+#div2down
+	{width : 95%;	 height:178px;   background-color:#DFE2DB;border-radius:30px;}
+
+#div3up
+	{width : 95%;	 height:141px;   background-color:#FFFFFF;border-radius:30px;}
+#div3mid
+	{width : 95%;	 height:369px;   background-color: #FFF056; border-radius:30px; }
+#div3down
+	{width : 95%;	 height:141px;   background-color:#DFE2DB;border-radius:30px;}
+	
+#div4up
+	{width : 95%;	 height:104px;   background-color:#FFFFFF;border-radius:30px;}
+#div4mid
+	{width : 95%;	 height:443px;   background-color: #FFF056; border-radius:30px; }
+#div4down
+	{width : 95%;	 height:104px;   background-color:#DFE2DB;border-radius:30px;}
+
+#div5up
+	{width : 95%;	 height:67px;    background-color:#FFFFFF;border-radius:30px;}
+#div5mid
+	{width : 95%;	 height:517px;   background-color: #FFF056; border-radius:30px; }
+#div5down
+	{width : 95%;	 height:67px;    background-color:#DFE2DB;border-radius:30px;}
+	
+	
+
+		
+
+</style>
+
+</head>
+
+<body bgcolor="#000000">
+
+	<div id="maindiv">
+  
+    		<div id="div1" align="center">
+            	
+                <div id="div1up"> </div>
+                <div id="div1mid" align="center" >
+                <br>
+                <tr ><td ><img id="im" src="4.jpg" width="220px" height="180px"  style="border-radius:20px; display:none"></td></tr> 
+                </div>
+                <div id="div1down" > </div>
+            
+            </div>
+            
+            <div id="div2" align="center">
+            
+                <div id="div2up"></div>
+                <div id="div2mid" > </div>
+                <div id="div2down" > </div>
+            
+            </div>
+            
+            <div id="div3" align="center">
+            
+            	<div id="div3up"> </div>
+                <div id="div3mid" > </div>
+                <div id="div3down" > </div>
+            
+            </div>
+            
+            <div id="div4" align="center">
+            
+            	<div id="div4up"> </div>
+                <div id="div4mid" > </div>
+                <div id="div4down" > </div>
+            
+            </div>
+          
+            <div id="div5" align="center">
+            	
+                <div id="div5up"> </div>
+                <div id="div5mid" > 
+                <div id="kk">
+                <table s align="center" style="font-family:'Comic Sans MS', cursive;color:#FFF;font-size:50px">
+                <tr><td>Mr.</td><td style="color:#000">Mr.<td></tr>
+                <tr><td>M</td><td style="color:#000">M<td></tr>
+                <tr><td>I</td><td style="color:#000">I<td></tr>
+                <tr><td>N</td><td style="color:#000">N<td></tr>
+                <tr><td>I</td><td style="color:#000">I<td></tr>
+                <tr><td>O</td><td style="color:#000">O<td></tr>
+                <tr><td>N</td><td style="color:#000">N<td></tr>
+               	</table>
+                </div>
+                </div>
+                <div id="div5down" > </div>
+            
+            </div>
+    
+    </div>
+    
+</body>
+</html>
